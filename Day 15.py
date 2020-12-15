@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[53]:
-
-
 from collections import defaultdict
 day15input = [13,0,10,12,1,5,8]
 def day15(data, nth=2020):
@@ -20,10 +16,3 @@ get_ipython().run_line_magic('timeit', 'day15(day15input, 2020)')
 print('part 1', day15(day15input, 2020))
 get_ipython().run_line_magic('timeit', 'day15(day15input, 30000000)')
 print('part 2', day15(day15input, 30000000))
-
-
-# In[ ]:
-
-
-
-
